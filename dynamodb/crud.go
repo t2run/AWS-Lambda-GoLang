@@ -30,7 +30,7 @@ type UserInfo struct {
 	LastName string `json:"lastName,omitempty"`
 }
 
-//GetStoreTemplate details
+//GetUser details
 func GetUser(tableName, userID string) (UserInfo, error) {
 
 	var userInfo UserInfo
